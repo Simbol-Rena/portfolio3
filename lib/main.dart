@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'glennturla.dart';
+import 'marcturla.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
 
@@ -116,7 +117,7 @@ class MyHomePage extends StatelessWidget {
             ),
             ListTile(
               onTap: (){
-                /*Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => MarcTurla()));*/
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => MarcTurla()));
               },
 
               title: Row(
