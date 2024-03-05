@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'glennturla.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -61,73 +63,68 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: Icon(Icons.person),
-              title: GestureDetector(
-                onTap: () {
-                  // Add your logic here
-                },
-                child: Text(
-                  'Glenn Turla',
-                  style: TextStyle(
-                    color: Colors.black,
-                  ),
-                ),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => GlennTurla()));
+              },
+
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Glenn Turla"),
+                  ClipOval(child: Image.network("https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/428473303_383635311226980_8329368166654701502_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGKUfOH0f6lQJIVyQhWg5uymYi7-O8-BGaZiLv47z4EZpJbhDcCrfDOVeUeHmKKRNmPqAcxO1Mck0KmToXB6Cds&_nc_ohc=-F_Y8I_nt1AAX8i2cG1&_nc_ht=scontent.fmnl9-4.fna&oh=03_AdTkM7BHFQ3psjesfGlxJEWWy0XdVxjGxP-x0umVIIGgnA&oe=660E7BD7", height: 50,)),
+                ],
               ),
             ),
             ListTile(
-              leading: Icon(Icons.person),
-              title: GestureDetector(
-                onTap: () {
-                  // Add your logic here
-                },
-                child: Text(
-                  'Rena Simbol',
-                  style: TextStyle(
-                    color: Colors.black,
-                  ),
-                ),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => GlennTurla()));
+              },
+
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Rena Simbol"),
+                  ClipOval(child: Image.network("https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/416996063_351491721092803_5544804075161236345_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFGiYPkN-R9wpy7TJZCxemHkuNQ7dR7GeGS41Dt1HsZ4XhUQYx3xSJWmKTIoZwI4h7Q-hMv3CVSn25dkO7RH40D&_nc_ohc=XGr9qsrdkCgAX_PR28y&_nc_ht=scontent.fmnl9-4.fna&oh=03_AdTzZcL4bU35kF6Udp3Mqb9PRuFPV2fejIkOi2fD5-E-HA&oe=660E970A", height: 50,)),
+                ],
               ),
             ),
             ListTile(
-              leading: Icon(Icons.person),
-              title: GestureDetector(
-                onTap: () {
-                  // Add your logic here
-                },
-                child: Text(
-                  'Jasper Ingal',
-                  style: TextStyle(
-                    color: Colors.black,
-                  ),
-                ),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => GlennTurla()));
+              },
+
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Jasper Ingal"),
+                  ClipOval(child: Image.network("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.15752-9/420657277_953985423109874_1447991814896513781_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEUz2_D1cPV21hjTTmJ4lv_JxgJ4ZUWpHknGAnhlRakeaoi75u4A6wVf8ZGR7rTwchtdgPiKzuITKJFC-q7gV-H&_nc_ohc=3ztvjCjlgBwAX82OExf&_nc_ht=scontent.fmnl9-1.fna&oh=03_AdSq_BFWsaYaJMOKWjTrFXSy9qTGjN4WamTxUUK-OcJtFg&oe=660E9015", height: 50,)),
+                ],
               ),
             ),
             ListTile(
-              leading: Icon(Icons.person),
-              title: GestureDetector(
-                onTap: () {
-                  // Add your logic here
-                },
-                child: Text(
-                  'Rustine Dullas',
-                  style: TextStyle(
-                    color: Colors.black,
-                  ),
-                ),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => GlennTurla()));
+              },
+
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Rustine Dullas"),
+                  ClipOval(child: Image.network("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.15752-9/431429058_823428052950784_1368498106834735368_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH6r1w4INiyEja5giGmoaTAl10Og8lkAHWXXQ6DyWQAdaW4JUllvAKzDFy6Bz7ZoL7MVdsArKLHrsJLvai-y3Ki&_nc_ohc=1IpNr-mic84AX-lasDa&_nc_ht=scontent.fmnl9-1.fna&oh=03_AdRm7injj91YZ8iki5qa_CepWVzKxWCj7YjgB1IH3zA8cA&oe=660EB802", height: 50,)),
+                ],
               ),
             ),
             ListTile(
-              leading: Icon(Icons.person),
-              title: GestureDetector(
-                onTap: () {
-                  // Add your logic here
-                },
-                child: Text(
-                  'Marc Turla',
-                  style: TextStyle(
-                    color: Colors.black,
-                  ),
-                ),
+              onTap: (){
+                /*Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => MarcTurla()));*/
+              },
+
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Marc Turla"),
+                  ClipOval(child: Image.network("https://scontent.fcrk1-4.fna.fbcdn.net/v/t39.30808-1/428623116_333856449630903_5624860471446001403_n.jpg?stp=cp6_dst-jpg_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeFgH4giDWVOuACm_64AhzNMt3dZ0jiGw323d1nSOIbDfUOkKTr5XwDCcieGMoEwYW8y2vBgUt81Z_hO2VDxxOww&_nc_ohc=YJHLib1vTa8AX-eKrEJ&_nc_ht=scontent.fcrk1-4.fna&oh=00_AfDXmxW9tB2cDYHxe_zVrCRKE4RDvWswhpes9xG4aLn-4Q&oe=65EABA05", height: 50,)),
+                ],
               ),
             ),
             Divider(), // Divider for visual separation
@@ -205,7 +202,7 @@ class MyHomePage extends StatelessWidget {
                   );
                 }).toList(),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 80.0),
               Text(
                 'Welcome to our Portfolio!',
                 textAlign: TextAlign.center,
@@ -220,12 +217,12 @@ class MyHomePage extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 20.0),
-              ElevatedButton(
+              /* ElevatedButton(
                 onPressed: () {
                   // Add your logic here
                 },
                 child: Text('View Portfolio'),
-              ),
+              ),*/
             ],
           ),
         ),
