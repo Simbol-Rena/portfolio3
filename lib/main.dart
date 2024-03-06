@@ -81,7 +81,7 @@ class MyHomePage extends StatelessWidget {
             ),
             ListTile(
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => GlennTurla()));
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => RenaSimbol()));
               },
 
               title: Row(

@@ -27,7 +27,7 @@ class _RenaSimbolState extends State<RenaSimbol> {
             children: [
               ClipOval(
                   child: Image.network(
-                    "https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/428473303_383635311226980_8329368166654701502_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGKUfOH0f6lQJIVyQhWg5uymYi7-O8-BGaZiLv47z4EZpJbhDcCrfDOVeUeHmKKRNmPqAcxO1Mck0KmToXB6Cds&_nc_ohc=-F_Y8I_nt1AAX8i2cG1&_nc_ht=scontent.fmnl9-4.fna&oh=03_AdTkM7BHFQ3psjesfGlxJEWWy0XdVxjGxP-x0umVIIGgnA&oe=660E7BD7",
+                    "https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/416996063_351491721092803_5544804075161236345_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFGiYPkN-R9wpy7TJZCxemHkuNQ7dR7GeGS41Dt1HsZ4XhUQYx3xSJWmKTIoZwI4h7Q-hMv3CVSn25dkO7RH40D&_nc_ohc=XGr9qsrdkCgAX_PR28y&_nc_ht=scontent.fmnl9-4.fna&oh=03_AdTzZcL4bU35kF6Udp3Mqb9PRuFPV2fejIkOi2fD5-E-HA&oe=660E970A",
                     height: 80,
                   )),
               Text(
