@@ -97,9 +97,14 @@ class _RustineDullasState extends State<RustineDullas> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    "Year: ",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),
+                  Row(
+                    children: [
+                      Text(
+                        "Year: ",
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),
+                      ),
+                      Icon(Icons.school, size: 12),
+                    ],
                   ),
                   Text(
                       "$years${years == 1 ? 'st' : years == 2 ? 'nd' : years == 3 ? 'rd' : 'th'} Year",
