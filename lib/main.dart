@@ -40,8 +40,9 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Center(
-          child: Text(
+        flexibleSpace: FlexibleSpaceBar(
+          centerTitle: true,
+          title: Text(
             'PORTFOLIO',
             style: TextStyle(
               color: Colors.white,
